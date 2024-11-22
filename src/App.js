@@ -34,6 +34,7 @@ const App = () => {
     <div className="dashboard">
       <Header onSearch={handleSearch} />
       <MetricsGrid metrics={metrics} />
+      
       <ChartCard
         data={{
           labels: ['Jan', 'Feb', 'Mar'],

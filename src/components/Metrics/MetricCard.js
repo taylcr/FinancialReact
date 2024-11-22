@@ -11,11 +11,14 @@ const MetricCard = ({ value, label, change, icon, bgColor, iconColor }) => (
             <i className={`fas fa-arrow-${change > 0 ? "up" : "down"}`}></i> {change}%
           </div>
         </div>
+        
         <div className="metric-icon" style={{ backgroundColor: bgColor }}>
           <i className={icon} style={{ color: iconColor }}></i>
         </div>
       </div>
     </div>
+
+       
   );
   
 

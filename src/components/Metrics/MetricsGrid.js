@@ -15,7 +15,9 @@ const MetricsGrid = ({ metrics }) => {
           bgColor={metric.bgColor}
           color={metric.color}
         />
+        
       ))}
+      
     </div>
   );
 };
