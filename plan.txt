@@ -1,0 +1,34 @@
+src/
+│
+├── components/
+│   ├── Header/
+│   │   ├── Header.js
+│   │   └── Header.css
+│   ├── Metrics/
+│   │   ├── MetricCard.js
+│   │   └── MetricCard.css
+│   ├── Sentiment/
+│   │   ├── SentimentCard.js
+│   │   └── SentimentCard.css
+│   ├── Chart/
+│   │   ├── ChartCard.js
+│   │   └── ChartCard.css
+│   ├── FinancialOptions/
+│   │   ├── FinancialOptions.js
+│   │   └── FinancialOptions.css
+│   └── Chat/
+│       ├── ChatWidget.js
+│       └── ChatWidget.css
+│
+├── hooks/
+│   ├── useFetchData.js
+│   ├── useChartData.js
+│   └── useChatBot.js
+│
+├── App.js
+├── index.js
+├── styles/
+│   └── global.css
+└── utils/
+    ├── formatUtils.js
+    └── api.js

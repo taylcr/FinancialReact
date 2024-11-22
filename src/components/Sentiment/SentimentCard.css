@@ -1,0 +1,32 @@
+.sentiment-analysis {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .analysis-header {
+    margin-bottom: 0.75rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .analysis-content {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+  
+  .analysis-text {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    background: white;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #374151;
+    resize: vertical;
+    outline: none;
+  }
+  
