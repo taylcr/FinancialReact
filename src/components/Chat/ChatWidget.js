@@ -33,3 +33,5 @@ const ChatWidget = ({ onSendMessage }) => {
 };
 
 export default ChatWidget;
+
+

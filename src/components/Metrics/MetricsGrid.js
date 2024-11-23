@@ -6,8 +6,7 @@ const MetricsGrid = ({ metrics }) => {
   return (
     <div className="metrics-grid">
       {metrics.map((metric, index) => (
-        <MetricCard
-          key={index}
+        <MetricCard key={index}
           value={metric.value}
           label={metric.label}
           change={metric.change}

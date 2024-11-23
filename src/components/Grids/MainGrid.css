@@ -1,0 +1,9 @@
+
+
+  .main-grid {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem; /* Space between the ChartCard and SentimentCard */
+    align-items: flex-start; /* Align items at the top */
+    width: 100%; /* Ensure it spans the full width */
+}
